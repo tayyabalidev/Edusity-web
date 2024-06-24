@@ -1,0 +1,65 @@
+.Programs{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.program img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.program{
+    flex-basis: 31%;
+    position: relative;
+}
+.caption{
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+    padding-top: 70%;
+}
+.program:hover .caption {
+    opacity: 1;
+    padding-top: 0;
+}
+.caption img{
+    width: 45px;
+    margin-bottom: 7px;
+}
+/*  */
+
+  @media (max-width: 800px){
+
+    .Programs{
+        flex-direction: column;
+    }
+    .program{
+        flex-basis: 100%;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    .program img{
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+  }
+  
+  

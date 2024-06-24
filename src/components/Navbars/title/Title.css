@@ -1,0 +1,21 @@
+/* program-title */
+.program-title{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.program-title h6{
+    text-align: center;
+    color: #212ea0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.program-title h1{
+    font-weight: 700;
+    font-size: 32px;
+    color: #000f38;
+
+}
